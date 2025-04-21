@@ -88,7 +88,7 @@ configurations {
 }
 
 android {
-    namespace 'net.rothko.pojavlaunch'
+    namespace 'net.kdt.pojavlaunch'
 
     compileSdk = 34
 
