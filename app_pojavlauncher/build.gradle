@@ -112,7 +112,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "net.rothko.pojavlaunch"
+        applicationId "com.antutu.ABenchMark"
         minSdkVersion 21
         targetSdkVersion 34
         versionCode getDateSeconds()
@@ -128,7 +128,7 @@ android {
             shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.customDebug
-            resValue 'string', 'application_package', 'net.rothko.pojavlaunch.debug'
+            resValue 'string', 'application_package', 'com.antutu.ABenchMark'
             resValue 'string', 'storageProviderAuthorities', 'net.kdt.pojavlaunch.scoped.gamefolder.debug'
             resValue 'string', 'shareProviderAuthority', 'net.kdt.pojavlaunch.scoped.controlfolder.debug'
         }
@@ -150,7 +150,7 @@ android {
             // multiDexEnabled = true
             // debuggable = true
             resValue 'string', 'storageProviderAuthorities', 'net.kdt.pojavlaunch.scoped.gamefolder'
-            resValue 'string', 'application_package', 'net.rothko.pojavlaunch'
+            resValue 'string', 'application_package', 'com.antutu.ABenchMark'
         }
         gplay {
             initWith release
