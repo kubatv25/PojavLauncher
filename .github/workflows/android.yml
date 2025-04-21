@@ -85,8 +85,9 @@ jobs:
       - name: Build Google Play .aab
         if: github.repository_owner == 'PojavLauncherTeam' && github.ref_name == 'v3_openjdk'
         run: |
-          gradle :app_pojavlauncher:bundleGplay
-          mv app_pojavlauncher/build/outputs/bundle/gplay/app_pojavlauncher-gplay.aab out/app-gplay.aab
+          gradle :app_pojavlauncher:bundleGplayRelease
+          mv app_pojavlauncher/build/outputs/bundle/gplayRelease/app_pojavlauncher-gplay-release.aab out/app-gplay.aab
+
 
       - name: Build Debug .apk
         run: |
