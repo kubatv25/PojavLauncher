@@ -88,7 +88,7 @@ configurations {
 }
 
 android {
-    namespace 'net.kdt.pojavlaunch'
+    namespace 'net.rothko.pojavlaunch'
 
     compileSdk = 34
 
@@ -149,8 +149,8 @@ android {
             // defaultConfig already set
             // multiDexEnabled = true
             // debuggable = true
-            resValue 'string', 'storageProviderAuthorities', 'net.kdt.pojavlaunch.scoped.gamefolder'
-            resValue 'string', 'application_package', 'net.kdt.pojavlaunch'
+            resValue 'string', 'storageProviderAuthorities', 'net.rothko.pojavlaunch.scoped.gamefolder'
+            resValue 'string', 'application_package', 'net.rothko.pojavlaunch'
         }
         gplay {
             initWith release
